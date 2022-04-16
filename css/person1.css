@@ -1,0 +1,95 @@
+html, body {
+	background-color: #002544;
+ 	background-size: cover; 
+   	background-attachment: fixed;
+	overflow-x: hidden;
+}
+.header, .section{
+	position: relative;
+	width: 100%;
+}
+
+.sectionHeader {
+	height: 200px;
+}
+
+.section1{
+	height: 1200px;
+}
+.bluepaper {
+	position: relative;
+  	transform:rotate(180deg);
+	transform-origin: center;
+	z-index: 1;
+}
+.bluelady {
+    position: absolute;
+    transform: rotateZ(10deg);
+	right: 40px;
+	top:300px;
+	z-index: 0;
+	
+}
+.header {
+    position: absolute;
+    top: 8%;
+    left: 8%;
+    width: 50%;
+    color:antiquewhite;
+	
+}
+
+.header > .counter {
+    float: left;
+    font-size: 115pt;
+    width: 10%;
+    padding-top: 60px;
+}
+
+.header > .text {
+    float: left;
+    width: 80%;
+}
+
+h1 {
+    font-size:80pt;
+	
+}
+
+.subtitle{
+	position: absolute;
+	font-family: Grape Nuts;
+	font-size: 25pt;
+	color:#002544;
+	z-index: 2;
+	top:180px;
+	left:170px;
+	width: 50%;
+	
+}
+
+.header > .text {
+    font-size: 15pt;
+}
+
+
+h2{
+	font-size: 34pt;
+	color:antiquewhite;
+	font-family: Playfair Display;
+	font-style: italic;
+	width: 40%;
+	padding-left: 180px;
+	padding-top: 50px;
+
+	
+
+}
+
+.title,h1{
+	line-height: 1;
+
+}
+
+
+

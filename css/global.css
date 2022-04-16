@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Playfair Display';
+    src: url("../assets/font/PlayfairDisplay-Regular.ttf");
+	
+}
+@font-face {
+    font-family: 'Grape Nuts';
+    src: url("../assets/font/GrapeNuts-Regular.ttf");
+	
+}
+@font-face {
+    font-family: 'Playfair Display';
+    src: url("../assets/font/PlayfairDisplay-Bold.ttf");
+	font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url("../assets/font/PlayfairDisplay-Italic-VariableFont_wght.ttf");
+	font-style: italic;
+}
+
+html, body {
+    margin: 0;
+    width: 100%;
+    min-height: 100%;
+    font-family: 'Playfair Display', Serif;
+	overflow-x: hidden;
+}
+
+
+.leaf {
+    
+    position: fixed;
+	right: 8%;
+    z-index: 4;
+	transform: scale(0.9);
+	
+}
+
+.hoverAnimation{
+	transition: transform 1s;
+}
+
+
+.hoverAnimation:hover{
+	transform: rotate(180deg);
+}

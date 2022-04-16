@@ -1,0 +1,54 @@
+html, body {
+    background-image: url("../assets/img/about.png");
+ 	background-size: cover; 
+   	background-attachment: fixed;
+}
+
+.header {
+    position: absolute;
+    top: 8%;
+    left: 8%;
+    width: 50%;
+    color:#002544;
+	
+}
+
+.header > .counter {
+    float: left;
+    font-size: 115pt;
+    width: 10%;
+    padding-top: 60px;
+}
+
+.header > .text {
+    float: left;
+    width: 80%;
+}
+
+h1 {
+    font-size:80pt;
+	
+}
+
+.subtitle{
+	font-family: Grape Nuts;
+	  font-size: 25pt;
+	width: 120%;
+}
+
+.header > .text {
+    font-size: 15pt;
+}
+
+
+.p{
+	font-size: 14pt;
+
+}
+
+.title,h1{
+	line-height: 1;
+
+}
+
+

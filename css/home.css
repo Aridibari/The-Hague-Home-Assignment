@@ -1,0 +1,89 @@
+html, body {
+	background-image: url("../assets/img/home-background.png");
+	background-size: cover; 
+	background-attachment: fixed;
+	overflow-y: hidden;
+}
+
+.header {
+    position: absolute;
+    top: 5%;
+    left: 4%;
+    width: 50%;
+    color: whitesmoke;
+}
+
+.header > .counterContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	position: absolute
+}
+
+.header > .counterContainer > .counter {
+    float: left;
+    font-size: 135pt;
+	padding-bottom: 90px;
+	padding-left: 7px;
+}
+
+.header > .text {
+    float: right;
+    width: 80%;
+}
+
+.header > .text > .title {
+    font-size: 60pt;
+	line-height: 1;
+}
+
+.header > .text > .subtitle {
+    font-size: 25pt;
+	font-family: Grape Nuts;
+	color: black;
+	
+}
+
+.menuItem {
+    position: absolute;
+}
+
+.about:hover {
+	transform:  rotateZ(180deg);
+}
+
+.about {
+    top: 30%;
+    right: 30%;
+    z-index: 5;
+	transition: transform 1s;
+	
+}
+.hoverAnimation{
+	transition: transform 1s;
+	
+}
+.hoverAnimation:hover{
+	transform: rotateZ(10deg) scale(1.1);
+	
+}
+.person1 {
+    top: 7%;
+    right: 7%;
+    transform-origin: top right;
+    z-index: 4;
+}
+
+.person3 {
+    left: 9%;
+	bottom: 1%;
+    z-index: 2;
+    transform-origin: bottom center;
+}
+.person2 {
+    bottom: 15%;
+    right: 12%;
+    z-index: 1;
+	transform: scale(0.9)
+}

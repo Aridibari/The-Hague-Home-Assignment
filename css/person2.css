@@ -1,0 +1,89 @@
+html, body {
+ 	background-size: cover; 
+   	background-attachment: fixed;
+}
+.header, .section{
+	position: relative;
+	width: 100%;
+}
+.backgroudimg{
+	position: absolute;
+	top: 0;
+    left: 0;
+	width: 100%;
+	/*mix-blend-mode:overlay;*//*works with pictures on top*/
+}
+.img {
+    position: absolute;
+    transform: scale(0.3);
+	transform: rotate();
+	top: 8%;
+	
+}
+.section{
+	height: 500px;
+}
+
+.pictureArnvid, .pictureArnvid3{
+	transform: rotateZ(10deg);
+	position: absolute;
+	right: 0;
+	top: 0px;
+}
+
+.section1{
+	height: 1000px;
+}
+.pictureArnvid2{
+	transform: rotateZ(-5deg);
+	position: absolute;
+	left: 0;
+	top: 0px;
+}
+
+.header {
+    position: absolute;
+    top: 8%;
+    left: 8%;
+    width: 50%;
+    color:#002544;
+	
+}
+
+.header > .counter {
+    float: left;
+    font-size: 115pt;
+    width: 10%;
+    padding-top: 60px;
+}
+
+.header > .text {
+    float: left;
+    width: 80%;
+}
+
+h1 {
+    font-size:80pt;
+}
+
+.subtitle{
+	font-family: Grape Nuts;
+	font-size: 25pt;
+	width: 120%;
+}
+
+.header > .text {
+    font-size: 15pt;
+}
+
+
+.p{
+	font-size: 14pt;
+
+}
+
+.title,h1{
+	line-height: 1;
+
+}
+
